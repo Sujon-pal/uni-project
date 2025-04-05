@@ -1,0 +1,36 @@
+
+
+.navbar {
+  background-color: #fff;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+  padding-top: 70px;
+  margin-bottom: 4em;
+  overflow: hidden;
+
+  .features-content {
+    width: 50%;
+
+    h2 {
+      padding-block-end: 0.4em;
+    }
+  }
+
+  .mobile-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .icon-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
